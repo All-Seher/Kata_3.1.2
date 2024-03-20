@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import springboot.entity.User;
-import springboot.repositor.UsereRepository;
+import springboot.repository.UsereRepository;
 
 import java.util.List;
 
@@ -12,26 +12,26 @@ import java.util.List;
 @Transactional
 public class UserSrvice {
 
-    private final UsereRepository usereRepository;
+    private final UserRepository userRepository;
 
     @Autowired
-    public UserSrvice(UsereRepository usereRepository) {
-        this.usereRepository = usereRepository;
+    public UserSrvice(UserRepository userRepository) {
+        this.userRepository = usereRepository;
     }
 
     public List<User> listAll() {
-        return usereRepository.findAll();
+        return userRepository.findAll();
     }
 
     public void save(User user) {
-        usereRepository.save(user);
+        userRepository.save(user);
     }
 
     public User get(int id) {
-        return usereRepository.findById(id).get();
+        return userRepository.findById(id).get();
     }
 
     public void delete(int id) {
-        usereRepository.deleteById(id);
+        userRepository.deleteById(id);
     }
 }
