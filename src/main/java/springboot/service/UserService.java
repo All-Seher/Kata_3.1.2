@@ -10,7 +10,7 @@ import java.util.List;
 
 @Service
 @Transactional
-public class UserSrvice {
+public class UserService {
 
     private final UserRepository userRepository;
 
