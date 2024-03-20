@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d36144-ad3b-4041-b6eb-cbb60208de65" name="Changes" comment="Готовый проект">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/AppMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springboot/AppMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springboot/AppMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springboot/controller/UserController.class" afterDir="false" />
-    </list>
+    <list default="true" id="86d36144-ad3b-4041-b6eb-cbb60208de65" name="Changes" comment="Готовый проект" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,6 +107,7 @@
       <workItem from="1710807022470" duration="3487000" />
       <workItem from="1710846328486" duration="2196000" />
       <workItem from="1710856758412" duration="1737000" />
+      <workItem from="1713286236727" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Pom Init">
       <option name="closed" value="true" />

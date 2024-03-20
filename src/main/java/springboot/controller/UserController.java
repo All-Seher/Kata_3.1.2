@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import springboot.entity.User;
-import springboot.service.UserSrvice;
+import springboot.service.UserService;
 
 @Controller
 public class UserController {
 
-    private final UserSrvice userService;
+    private final UserService userService;
 
     @Autowired
-    public UserController(UserSrvice userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 

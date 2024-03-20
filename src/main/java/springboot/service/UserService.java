@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import springboot.entity.User;
-import springboot.repository.UsereRepository;
+import springboot.repository.UserRepository;
 
 import java.util.List;
 
@@ -16,7 +16,7 @@ public class UserService {
 
     @Autowired
     public UserService(UserRepository userRepository) {
-        this.userRepository = usereRepository;
+        this.userRepository = userRepository;
     }
 
     public List<User> listAll() {
