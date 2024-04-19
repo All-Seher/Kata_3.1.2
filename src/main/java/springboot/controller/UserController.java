@@ -9,27 +9,27 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import springboot.entity.User;
-import springboot.service.UserService;
+import springboot.service.UserServiceImpl;
 
 @Controller
 public class UserController {
 
-    private final UserService userService;
+    private final UserServiceImpl userServiceImpl;
 
     @Autowired
-    public UserController(UserService userService) {
-        this.userService = userService;
+    public UserController(UserServiceImpl userServiceImpl) {
+        this.userServiceImpl = userServiceImpl;
     }
 
     @GetMapping("/")
     public String allFilms(Model model) {
-        model.addAttribute("users", userService.listAll());
+        model.addAttribute("users", userServiceImpl.listAll());
         return "users";
     }
 
     @GetMapping("/edit")
     public String edit(@RequestParam("id") int id, Model model) {
-        model.addAttribute("user", userService.get(id));
+        model.addAttribute("user", userServiceImpl.get(id));
         return "create_or_update";
     }
 
@@ -41,13 +41,13 @@ public class UserController {
 
     @PostMapping
     public String create(@ModelAttribute("user") User user) {
-        userService.save(user);
+        userServiceImpl.save(user);
         return "redirect:/";
     }
 
     @GetMapping("/delete")
     public String deleteUser(@RequestParam("id") int id, Model model) {
-        userService.delete(id);
+        userServiceImpl.delete(id);
 
         return "redirect:/";
     }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86d36144-ad3b-4041-b6eb-cbb60208de65" name="Changes" comment="Готовый проект" />
+    <list default="true" id="86d36144-ad3b-4041-b6eb-cbb60208de65" name="Changes" comment="Готовый проект">
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/service/UserServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,10 +82,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AppMain">
     <configuration name="AppMain" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="springboot.AppMain" />
       <module name="Kata_3.1.2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Kata_3.1.2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springboot.AppMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,6 +118,7 @@
       <workItem from="1710846328486" duration="2196000" />
       <workItem from="1710856758412" duration="1737000" />
       <workItem from="1713286236727" duration="48000" />
+      <workItem from="1713518813999" duration="2128000" />
     </task>
     <task id="LOCAL-00001" summary="Pom Init">
       <option name="closed" value="true" />
@@ -150,7 +161,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="fix" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
