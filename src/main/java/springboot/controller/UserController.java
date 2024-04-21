@@ -3,10 +3,7 @@ package springboot.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import springboot.entity.User;
 import springboot.service.UserServiceImpl;
@@ -27,8 +24,8 @@ public class UserController {
         return "users";
     }
 
-    @GetMapping("/edit")
-    public String edit(@RequestParam("id") int id, Model model) {
+    @GetMapping("/edit/{id}")
+    public String edit(Model model, @PathVariable("id") int id) {
         model.addAttribute("user", userServiceImpl.get(id));
         return "create_or_update";
     }
@@ -39,8 +36,8 @@ public class UserController {
         return "create_or_update";
     }
 
-    @PostMapping
-    public String create(@ModelAttribute("user") User user) {
+    @PutMapping("/{id}")
+    public String create(@ModelAttribute("user") User user, @PathVariable("id") int id) {
         userServiceImpl.save(user);
         return "redirect:/";
     }

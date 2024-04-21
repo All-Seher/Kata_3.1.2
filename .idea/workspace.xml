@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="86d36144-ad3b-4041-b6eb-cbb60208de65" name="Changes" comment="Готовый проект">
       <change beforePath="$PROJECT_DIR$/src/main/java/springboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/create_or_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/create_or_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springboot/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/springboot/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/create_or_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/create_or_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fix" />
+        <entry key="$PROJECT_DIR$" value="00987c38a586da87cf45396d08850c320eae9da1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,6 +183,7 @@
     <MESSAGE value="Pom Init" />
     <MESSAGE value="JDBC настройка" />
     <MESSAGE value="Готовый проект" />
-    <option name="LAST_COMMIT_MESSAGE" value="Готовый проект" />
+    <MESSAGE value="Add PUT method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add PUT method" />
   </component>
 </project>

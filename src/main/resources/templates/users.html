@@ -27,7 +27,7 @@
         <td th:text="${user.surName}"></td>
         <td>
             <p>
-                <a th:href="@{/edit(id =${user.getId()})}"
+                <a th:href="@{/edit/{id}(id =${user.getId()})}"
                    th:text="Изменить"
                    class="btn btn-info btn-sm">
                 </a>
