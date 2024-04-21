@@ -37,13 +37,13 @@ public class UserController {
     }
 
     @PutMapping("/{id}")
-    public String create(@ModelAttribute("user") User user, @PathVariable("id") int id) {
+    public String create(@ModelAttribute("user") User user) {
         userServiceImpl.save(user);
         return "redirect:/";
     }
 
     @DeleteMapping("/{id}")
-    public String deleteUser(@PathVariable("id") int id, Model model) {
+    public String deleteUser(@PathVariable("id") int id) {
         userServiceImpl.delete(id);
 
         return "redirect:/";
