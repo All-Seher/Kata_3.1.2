@@ -7,7 +7,6 @@ import springboot.entity.User;
 import springboot.repository.UserRepository;
 
 import java.util.List;
-
 @Service
 public class UserServiceImpl implements UserService {
 
